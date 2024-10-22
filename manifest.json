@@ -3,12 +3,12 @@
   "short_name": "Primeira PWD",
   "icons": [
     {
-      "src": "images/aviao.png",
+      "src": "images/ifms.png",
       "sizes": "256x256",
       "type": "image/png"
     },
     {
-      "src": "images/aviao.png",
+      "src": "images/ifms.png",
       "sizes": "512x512",
       "type": "image/png"
     }
