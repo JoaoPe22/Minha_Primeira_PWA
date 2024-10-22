@@ -6,17 +6,230 @@
     <meta name="theme-color" content="white" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="manifest" href="/manifest.json" />
-    <link rel="apple-touch-icon" href="images/aviao.png">
+    <link rel="apple-touch-icon" href="images/aviao.png" />
 
     <title>Primeira PWD</title>
   </head>
   <body class="fullscreen">
+    <table>
+      <caption>
+        Quadro Horário Escolar
+      </caption>
+      <colgroup>
+        <col class="col1" />
+        <col />
+        <col />
+        <col />
+        <col />
+        <col />
+      </colgroup>
 
-    <div class="container">
-      <h1 class="title">Minha primeira PWA</h1>
-    </div>
+      <thead>
+        <tr>
+          <th height="35" scope="col">Horário</th>
+          <th height="35" scope="col">Segunda</th>
+          <th height="35" scope="col">Terça</th>
+          <th height="35" scope="col">Quarta</th>
+          <th height="35" scope="col">Quinta</th>
+          <th height="35" scope="col">Sexta</th>
+        </tr>
+      </thead>
+
+      <tfoot>
+        <!-- Linha 1 -->
+        <tr>
+          <td>
+            <strong>1ª Aula</strong>
+            <br />
+            07:00 - 07:45
+          </td>
+          <td id="white">&nbsp;</td>
+          <td id="white">&nbsp;</td>
+          <td id="white">&nbsp;</td>
+          <td id="white">&nbsp;</td>
+          <td id="white">&nbsp;</td>
+        </tr>
+
+        <!-- Linha 2 -->
+        <tr>
+          <td>
+            <strong>2ª Aula</strong>
+            <br />
+            07:45 - 08:30
+          </td>
+          <td id="white">&nbsp;</td>
+          <td id="white">&nbsp;</td>
+          <td id="white">&nbsp;</td>
+          <td id="white">&nbsp;</td>
+          <td id="white">&nbsp;</td>
+        </tr>
+
+        <!-- Linha 3 -->
+        <tr>
+          <td>
+            <strong>3ª Aula</strong>
+            <br />
+            08:30 - 09:15
+          </td>
+          <td id="white">&nbsp;</td>
+          <td id="white">&nbsp;</td>
+          <td id="white">&nbsp;</td>
+          <td id="white">&nbsp;</td>
+          <td id="white">&nbsp;</td>
+        </tr>
+
+        <!-- Linha 4 -->
+        <tr>
+          <td height="35"><strong>09:15 - 09:25</strong></td>
+          <td colspan="5" style="background-color: #dddddd">
+            <strong>INTERVALO</strong>
+          </td>
+        </tr>
+
+        <!-- Linha 5 -->
+        <tr>
+          <td>
+            <strong>4ª Aula</strong>
+            <br />
+            09:25 - 10:10
+          </td>
+          <td id="white">&nbsp;</td>
+          <td id="white">&nbsp;</td>
+          <td id="white">&nbsp;</td>
+          <td id="white">&nbsp;</td>
+          <td id="white">&nbsp;</td>
+        </tr>
+
+        <!-- Linha 6 -->
+        <tr>
+          <td>
+            <strong>5ª Aula</strong>
+            <br />
+            10:10 - 10:55
+          </td>
+          <td id="white">&nbsp;</td>
+          <td id="white">&nbsp;</td>
+          <td id="white">Programação e Tecnologia para Aplicações Servidor</td>
+          <td id="white">&nbsp;</td>
+          <td id="white">&nbsp;</td>
+        </tr>
+
+        <!-- Linha 7 -->
+        <tr>
+          <td>
+            <strong>6ª Aula</strong>
+            <br />
+            10:55 - 11:40
+          </td>
+          <td id="white">&nbsp;</td>
+          <td id="white">&nbsp;</td>
+          <td id="white">Gerência e Configurações de Serviços de Internet</td>
+          <td id="white">&nbsp;</td>
+          <td id="white">&nbsp;</td>
+        </tr>
+
+        <!-- Linha 8 -->
+        <tr>
+          <td>
+            <strong>MAT/VES</strong>
+            <br />
+            11:55 - 13:00
+          </td>
+          <td colspan="5" style="background-color: #dddddd">
+            <strong>---</strong>
+          </td>
+        </tr>
+
+        <!-- Linha 9 -->
+        <tr>
+          <td>
+            <strong>1ª Aula</strong>
+            <br />
+            13:00 - 13:45
+          </td>
+          <td rowspan="2" id="white">
+            Língua Portuguesa e Literatura Brasileira 6
+          </td>
+          <td id="white">Matemática 6</td>
+          <td rowspan="2" id="white">
+            Programação e Tecnologias para Aplicações Servidor
+          </td>
+          <td rowspan="3" id="white">
+            Programaçao e Tecnologias para Aplicações Cliente
+          </td>
+          <td rowspan="3" id="white">Programação para Dispositivos Móveis</td>
+        </tr>
+
+        <!-- Linha 10 -->
+        <tr>
+          <td>
+            <strong>2ª Aula</strong>
+            <br />
+            13:45 - 14:30
+          </td>
+          <td id="white">Língua Portuguesa e Literatura Brasileira 6</td>
+        </tr>
+
+        <!-- Linha 11 -->
+        <tr>
+          <td>
+            <strong>3ª Aula</strong>
+            <br />
+            14:30 - 15:15
+          </td>
+          <td id="white">Arte 2</td>
+          <td id="white">Estatística</td>
+          <td id="white">Matemática 6</td>
+        </tr>
+
+        <!-- Linha 12 -->
+        <tr>
+          <td height="35"><strong>15:15 - 15:25</strong></td>
+          <td colspan="5" style="background-color: #dddddd">
+            <strong>INTERVALO</strong>
+          </td>
+        </tr>
+
+        <!-- Linha 13 -->
+        <tr>
+          <td>
+            <strong>4ª Aula</strong>
+            <br />
+            15:25 - 16:10
+          </td>
+          <td id="white">Arte 2</td>
+          <td id="white">Estatística</td>
+          <td id="white">Matemática</td>
+          <td rowspan="3" id="white">Redes de Computadores</td>
+          <td id="white">Gerência e Configurações de Serviços de Internet</td>
+        </tr>
+
+        <!-- Linha 14 -->
+        <tr>
+          <td>
+            <strong>5ª Aula</strong>
+            <br />
+            16:10 - 16:55
+          </td>
+          <td rowspan="2" id="white">História 4</td>
+          <td rowspan="2" id="white">Física 6</td>
+          <td rowspan="2" id="white">
+            Gerência e Configurações de Serviços de Internet
+          </td>
+          <td rowspan="2" id="white">Segurança da Informção</td>
+        </tr>
+
+        <!-- Linha 15 -->
+        <tr>
+          <td>
+            <strong>6ª Aula</strong>
+            <br />
+            16:55 - 17:40
+          </td>
+        </tr>
+      </tfoot>
+    </table>
 
     <script src="js/main.js"></script>
   </body>
-  
 </html>
